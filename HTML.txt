@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Yotube Video Search</title>
+        <link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <br>
+            <h1> Mini Youtube </h1>
+            <br>
+        <form id="form">
+            <div class="form-group">
+                <input type="text" class="form-control" id="search">
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btn btn-danger" value="Search">
+            </div>
+        </form>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="videos">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="script.js"></script></script>
+</html>
